@@ -14,7 +14,7 @@ import { AiOutlineShopping, AiOutlineUser } from "react-icons/ai";
 import { PiMagnifyingGlassBold } from "react-icons/pi";
 
 // constants
-import { BASE_API_URL } from "../../constants/env.constants";
+import { BASE_API_URL } from "../../constants";
 
 const Header = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -100,10 +100,10 @@ const Header = () => {
           )}
           <div className="icons">
             <div className="icon">
-              <AiOutlineUser fontSize={20} />
+              <AiOutlineUser fontSize={30} />
             </div>
             <div className="icon">
-              <AiOutlineShopping fontSize={20} />
+              <AiOutlineShopping fontSize={30} />
             </div>
           </div>
         </div>
